@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: limegreen;
+  width: 100vw;
+  height: 100vh;
+}
+#title{
+  text-align: center;
+  margin-top:10px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.ctr{
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3 ,1fr);
+  margin-top:150px;
+}
+.cell{
+  background-color: dodgerblue;
+  width:100px;
+  height: 100px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#won{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+#reset{
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  font-size: 2rem;
+}
